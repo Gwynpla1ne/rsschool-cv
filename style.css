@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Light.woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/Roboto-Regular.woff");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/Roboto-Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("/assets/fonts/Roboto-Bold.woff");
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    max-width: 1280px;
+    width: 100%;
+}
+
+.main {
+    min-height: 90vh;
+    padding: 25px;
+}
+
+aside {
+    background-color: rgba(199, 224, 143, 0.6);
+    padding: 20px 50px;
+}
+
+
+/* .container {
+    max-width: 1440px;
+    margin: 0 auto;
+} */
+p {
+    white-space: pre-line;
+}
+
+.header img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #000000;
+}
+
+.rsslogo {
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: 28px;
+}
+
+.header p {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.ghlogo {
+    width: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    max-width: 1280px;
+    width: 100%;
+}
